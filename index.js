@@ -8,7 +8,7 @@ exports.stripe = stripe;
 
 const app = express();
 // app.use(cors({ origin: true }));
-app.use(cors({ origin: "http://localhost:5173" })); // Replace with your frontend URL
+app.use(cors({ origin: true })); // Replace with your frontend URL
 
 app.use(express.json());
 
